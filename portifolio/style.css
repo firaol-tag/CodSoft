@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(222, 219, 219);
+  width: 100%;
+}
+.fd {
+  background-image: url(./Assets/yenebg5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 750px;
+}
+.ws {
+  background-color: rgba(0, 0, 0.2, 0.5);
+  z-index: 1;
+}
+.header {
+  top: 0;
+  right: 0;
+  padding: 10px 0px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0.2, 0.7);
+  color: white;
+  position: sticky;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.hlist {
+  display: flex;
+  gap: 80px;
+}
+.hlist li {
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: century;
+  font-weight: bold;
+}
+.hlist li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 25px;
+}
+.hlist li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+#about {
+  margin: 80px 120px;
+  padding: 10px 0;
+}
+.Amain {
+  display: flex;
+  padding: 60px;
+  background-color: white;
+  border-radius: 25px;
+  height: 600px;
+}
+.Amain img {
+  width: 80%;
+  height: 500px;
+  margin-right: 60px;
+}
+.Aamain {
+  margin-left: 60px;
+  padding: 70px 70px 0 0;
+}
+.Aamain h2 {
+  border-bottom: solid black 2px;
+  border-width: 3px;
+}
+.Aheading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: larger;
+  font-family: century;
+  font-weight: bold;
+}
+.Aamain p {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-family: century;
+}
+#skills {
+  margin: 80px 120px;
+  padding: 10px 0;
+}
+.Sheading h1:hover {
+  color: chocolate;
+  border-bottom: solid chocolate 2px;
+  border-width: 5px;
+}
+.skillsM {
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px 40px;
+  height: 600px;
+}
+.skillsM ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+}
+.skillsM div {
+  border-bottom: solid orangered 2px;
+  border-width: 3px;
+}
+.skillsM ul li {
+  list-style: none;
+  padding: 20px 0;
+  font-size: 1.5em;
+}
+#projects {
+  margin: 80px 120px;
+  padding: 10px 0;
+}
+.ProjectM {
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px 40px 20px 40px;
+  gap: 25px;
+  height: 600px;
+}
+.imgdiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ProjectM .imgdiv .proimg {
+  width: 430px;
+}
+.imgdiv p {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+#resume {
+  margin: 80px 120px;
+}
+.ResumeM {
+  background-color: rgb(239, 238, 238);
+  border-radius: 25px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  height: 600px;
+}
+.ResumeM p {
+  font-size: 1.7rem;
+  font-family: century;
+  font-weight: medium;
+}
+.rimg {
+  width: 300px;
+}
+#contact {
+  margin: 80px 120px;
+  padding: 10px 0;
+}
+.contaxtM {
+  background-color: white;
+  border-radius: 25px;
+  padding: 30px 0;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contaxtM h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+.Cdiv {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 60px;
+  margin: 20px 80px 30px 200px;
+  padding: 40px 10px 40px 40px;
+  border: solid orange 2px;
+}
+.Cindiv {
+  display: flex;
+  gap: 40px;
+  font-size: 1.3rem;
+}
+.Cindiv h3 {
+  font-weight: bold;
+}
+.Cindiv div {
+  border-bottom: solid black 2px;
+  width: 50%;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+footer p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
